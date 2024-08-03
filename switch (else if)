@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(){
+    int c=3;
+    switch(c){
+        case 3:printf("yes");
+        break;
+        default:
+        printf("no");
+        break;
+    }
+}
