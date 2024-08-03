@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main (){
+    int a=1;
+    int b=3;
+    int z=0;
+   /* if(a>b)
+    z=a;
+    else
+    z=b;*/
+    z=(a>b) ? a:b;
+    printf("%d",z);
+}
