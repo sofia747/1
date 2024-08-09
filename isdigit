@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include <ctype.h>
+int main(){
+    char c='5';
+    printf("%d\n",isdigit(c));
+    c='+';
+    printf("%d",isdigit(c));
+}
