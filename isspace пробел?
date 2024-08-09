@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <ctype.h>
+int main(){
+    char c;
+    int n;
+    scanf("%c",&c);
+    n=isspace(c);
+    if(n)
+    printf("пробел");
+    else
+    printf("не пробел");
+}
